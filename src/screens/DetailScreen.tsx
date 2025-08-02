@@ -211,7 +211,7 @@ const DetailScreen = () => {
 
   const isTimeOver = isTimeExceeded(currentTask);
   const timeColor = getTimeColor(currentTask);
-  const displayImage = require('../../assets/할일.png');
+  const displayImage = require('../../assets/todo.png');
   
   // 진행률 계산 (0-100%)
   const progressPercentage = Math.min(100, Math.floor((elapsedTime / currentTask.targetTime) * 100));
@@ -252,7 +252,7 @@ const DetailScreen = () => {
             {/* 프로필 이미지 */}
             <View style={styles.profileContainer}>
               <View style={styles.profileImage}>
-                <Image source={require('../../assets/프로필.png')} style={styles.profileImg} />
+                <Image source={require('../../assets/profile.png')} style={styles.profileImg} />
               </View>
             </View>
 

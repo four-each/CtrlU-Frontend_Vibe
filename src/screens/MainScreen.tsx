@@ -185,7 +185,7 @@ const MainScreen = () => {
           </View>
         </View>
         <View style={styles.settingsIconContainer}>
-          <Image source={require('../../assets/설정.png')} style={styles.iconImage} />
+                          <Image source={require('../../assets/settings.png')} style={styles.iconImage} />
         </View>
         
         <View style={styles.profileList}>
@@ -201,7 +201,7 @@ const MainScreen = () => {
               }
             }}>
             <Image 
-              source={require('../../assets/프로필.png')} 
+              source={require('../../assets/profile.png')} 
               style={styles.profileImage} 
             />
             <Text style={styles.profileName}>
@@ -220,7 +220,7 @@ const MainScreen = () => {
               }
             }}>
             <Image 
-              source={require('../../assets/프로필.png')} 
+              source={require('../../assets/profile.png')} 
               style={styles.profileImage} 
             />
             <Text style={styles.profileName}>
@@ -238,7 +238,7 @@ const MainScreen = () => {
       <View style={styles.progressSection}>
         <View style={styles.progressHeader}>
           <Text style={styles.progressTitle}>진행 목록</Text>
-          <Image source={require('../../assets/새로고침.png')} style={styles.iconImage} />
+          <Image source={require('../../assets/refresh.png')} style={styles.iconImage} />
         </View>
         
         <View style={styles.progressList}>
